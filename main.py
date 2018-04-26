@@ -59,7 +59,7 @@ class AutoArt():
         self.browser=webdriver.Chrome('./chromedriver')
 
     # 登录界面
-    def auto_login(self,username='15700082275',password = 'jcq402'):
+    def auto_login(self,username='',password = ''):
         self.browser.get(self.login_url)
         user = self.browser.find_element_by_name('_username')
         pwd = self.browser.find_element_by_name('_password')
