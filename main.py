@@ -55,7 +55,7 @@ class Sqlite_db():
 class AutoArt():
     def __init__(self):
         self.login_url='https://www.sectown.cn/login'
-        self.create_url = 'https://www.sectown.cn/admin/article/create'
+        self.create_url = ''
         self.browser=webdriver.Chrome('./chromedriver')
 
     # 登录界面
